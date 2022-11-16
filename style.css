@@ -12,3 +12,12 @@ body{
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
+
+
+
+@media screen and (max-width: 720px){
+    .imagemIlustrativa{
+        width: 100%;
+		height: auto;
+    }
+}
