@@ -13,8 +13,19 @@
         <link rel="stylesheet" type="text/css" href="style.css">
 
         <style type="text/css">
-          .espaco{
-            margin-left: 6%;
+          .espacoEsq{
+            margin-left: 7%;
+          }
+          .espacoCima{
+            margin-top: 5%;
+          }
+          .espacoBaixo{
+            margin-bottom: 6%;
+          }
+          .myContainer{
+            margin-top: 5%;
+            background-color: rgb(119, 141, 169);
+            width: 100%;
           }
         </style>
     </head>
@@ -98,20 +109,61 @@
         <!--Final Fotos-->
 
         <!--Cards instrumentos-->
-        <br><br>
-        <div class="card text-center espaco" style="width: 18rem;">
-          <img src="produtos/guitarra.png" class="card-img-top" alt="..." height="300px" width="100px">
-            <div class="card-body">
-              <p class="card-text">GUITARRA TAGIMA STELLA HSS SÉRIE BRASIL PRETA</p>
-              <h5 class="card-title">R$4.789,00</h5>
-              <a href="#" class="btn btn-primary">Compre</a>
+        <h1 class="display-3 text-center pt-3">Produtos Exclusivos</h1>
+        <div class="container mt-2">
+          <div class="row">
+            <div class="col-md-1 col-sm-12 pt-4">  
+              <div class="card text-center" style="width: 18rem;">
+                <img src="produtos/guitarra.png" class="card-img-top" alt="..." height="300px" width="100px">
+                  <div class="card-body">
+                    <p class="card-text">GUITARRA TAGIMA STELLA HSS SÉRIE BRASIL PRETA</p>
+                    <h2 class="espaco2">R$4.789,00</h5>
+                    <a href="#" class="btn btn-outline-dark">Compre</a>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!--Tá dando bosta quando coloca outro card, depois dou uma olhada nisso-->
+            <!--<div class="col-md-1 col-sm-12">  
+              <div class="card text-center" style="width: 18rem;">
+                <img src="produtos/guitarra.png" class="card-img-top" alt="..." height="300px" width="100px">
+                  <div class="card-body">
+                    <p class="card-text">GUITARRA TAGIMA STELLA HSS SÉRIE BRASIL PRETA</p>
+                    <h2 class="espaco2">R$4.789,00</h5>
+                    <a href="#" class="btn btn-outline-dark">Compre</a>
+                  </div>
+                </div>
+              </div>
+            </div>-->
           </div>
         </div>
         <!--Fim cards-->
 
         <!--Icons Instrumentos-->
-        <div class="container mt-3">
+        <!--pera que eu vou me matar rapidinho-->
+        <div class="container-fluid myContainer">
+          <div class="row espacoEsq">
+            <h1 class="display-3">Confira outras páginas</h1>
+            <div class="col-md-7 col-sm-12 pt-4">
+              <button class="btn border-dark">
+                <img src="imagens/violao2.png" width="100px" height="100px" href="cordas.html">
+              </button>
+              <button class="btn border-dark">
+                <img src="imagens/piano2.png" width="100px" height="100px" href="">
+              </button>
+              <button class="btn border-dark">
+                <img src="imagens/saxophone.png" width="100px" height="100px">
+              </button>
+              <button class="btn border-dark">
+                <img src="imagens/drums2.png" width="100px" height="100px">
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--Final Icons Instrumentos-->
+        
+        <!--
+          <div class="container mt-3">
           <hr class="border border-dark">
           <div class="row espaco"> 
             <div class="col-md-3 col-sm-12 pt-2">
@@ -129,8 +181,7 @@
           </div>
           <hr class="border border-dark">
         </div>
-        <!--Final Icons Instrumentos-->
-
+        -->
         
 
 
