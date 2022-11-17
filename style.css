@@ -13,6 +13,22 @@ body{
     transform: scale(1.2);
 }
 
+#linhafooter {
+    height: 2px;
+    background-color: lightgray;
+    border-color: lightgray;
+    border: 0px;
+    background-color: gray;
+}
+
+footer {
+    background-color: rgb(13, 27, 42);
+    text-align: center;
+    align-items: center;
+    color: #b3aeae;
+    font-size: 15px;
+    margin-top: 30px;
+}
 
 
 @media screen and (max-width: 720px){
