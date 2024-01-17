@@ -1,6 +1,6 @@
 # MELODYA
 Melodya is a website made as an assignment of bootstrap usage so it's not functional.  
-Made by Luanna Sachinelli Paggiaro ([Lua-da-tarde](https://github.com/Lua-da-tarde) on GitHub) and Isabela Silvestre Rodrigues ([Gs1lver](https://github.com/Gs1lver) on GitHub)
+Made by Luanna Sachinelli Paggiaro ([Lila](https://github.com/lila-paggiaro) on GitHub) and Isabela Silvestre Rodrigues ([Gs1lver](https://github.com/Gs1lver) on GitHub)
 
 ![Página inicial](https://github.com/Lua-da-tarde/MELODYA/blob/main/readMe/melodya1.png)
 ![Final da página inicial](https://github.com/Lua-da-tarde/MELODYA/blob/main/readMe/melodya2.png)
